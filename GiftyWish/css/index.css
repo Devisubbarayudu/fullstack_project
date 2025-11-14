@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -36,7 +36,7 @@ body {
  }
     .search-bar input {
       width: 60%;
-      padding: 8px 10px;
+      padding: 8px 10px 8px 10px;
       margin-left: 10%;
       border: 2px solid #070505;
       border-radius: 20px;
@@ -73,61 +73,14 @@ a {
     background-color: #E88D28;
     color: white;
 }
-.hero-section {
-    position: relative;
-    height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.hero-section {  
+    height: 420px;   
 }
 
 .hero-bg {
-    width: 100vw;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
+    width: 100%;
+    height: 100%;  
 }
-
-
-.hero-content {
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    max-width: 650px;
-    margin: auto;
-    color: #fff;
-}
-
-.hero-content h1 {
-    font-size: 48px;
-    line-height: 45px;
-    font-weight: 800;
-}
-
-.hero-content p {
-    font-size: 1.35rem;
-    margin-bottom: 1.8em;
-}
-
-/* .hero-content button {
-    background: #F4A727;
-    color: #fff;
-    font-size: 1.1em;
-    border: none;
-    border-radius: 28px;
-    padding: 0.65em 2.4em;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.25s;
-} */
-/* .hero-content button:hover {
-    background: #E88D28;
-} */
-
-/* .category-section {
-    margin: 48px 0 48px 0;
-} */
 
 .category-section h2 {
     text-align: center;
@@ -169,7 +122,7 @@ a {
   font-size: 14px;
   position: sticky;
   bottom: 0;
-  z-index: 100px;
+  z-index: 1;
 }
 .footer a {
   margin: 0 10px;
@@ -206,6 +159,48 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <div class="hero-content">
+            <h1>Find the perfect educational toys to inspire creativity and fun in your child</h1>
+        </div> */
+
+/* .hero-content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 45px;
+    font-weight: 800;
+} */
 
 
 
