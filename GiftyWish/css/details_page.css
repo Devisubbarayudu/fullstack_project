@@ -1,0 +1,146 @@
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #faf9f6;
+    color: #223;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  color: #eda93b;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+  display: flex;
+}
+.logo-text {
+  color: #ee5822;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.gift-icon {
+  font-size: 32px;
+}
+ .search-bar{
+    width: 40%;
+ }
+    .search-bar input {
+      width: 60%;
+      padding: 8px 10px;
+      margin-left: 10%;
+      border: 2px solid #070505;
+      border-radius: 20px;
+    }
+a {
+  text-decoration: none;
+  color: #e88d28;
+} 
+
+
+main {
+  padding: 60px 100px;
+  margin-bottom: 90px;
+}
+
+.order-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  padding: 40px;
+}
+
+
+
+.order-details h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 800;
+}
+
+.order-box {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+ 
+}
+
+.order-box:hover {
+  background-color: #ececec;
+}
+
+.order-box h4 {
+  color: #444;
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.order-box p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 20px;
+  color: #ff7b00;
+  font-weight: 700;
+}
+
+.order-image {
+  text-align: center;
+}
+
+.order-image img {
+  width: 220px;
+  height: 240px;
+  margin-bottom: 25px;
+}
+
+.place-btn {
+  
+  color: #fff;
+  border: 2px solid orange;
+  padding: 12px 35px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  
+  
+}
+
+.footer {
+  background-color: #e88d28;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  position: sticky;
+  bottom: 0;
+  z-index: 100px;
+}
+.footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+

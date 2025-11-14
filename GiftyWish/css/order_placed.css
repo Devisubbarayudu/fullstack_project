@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #faf9f6;
+    color: #223;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  color: #eda93b;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+  display: flex;
+}
+.logo-text {
+  color: #ee5822;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.gift-icon {
+  font-size: 32px;
+}
+ .search-bar{
+    width: 40%;
+ }
+    .search-bar input {
+      width: 60%;
+      padding: 8px 10px;
+      margin-left: 10%;
+      border: 2px solid #070505;
+      border-radius: 20px;
+    }
+a {
+  text-decoration: none;
+  color: #e88d28;
+} 
+
+
+main{
+  margin-bottom: 90px;
+}
+.confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #fbf9f7;
+}
+
+.confirmation-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 380px;
+}
+
+.check-icon {
+  background: #22c55e;
+  color: white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  margin: 0 150px 20px;
+}
+
+.confirmation-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.confirmation-card p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.confirmation-card button {
+  
+  color: white;
+  padding: 12px 30px;
+  border: 2px solid orange;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+.footer {
+  background-color: #e88d28;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  position: sticky;
+  bottom: 0;
+  z-index: 100px;
+}
+.footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+ 

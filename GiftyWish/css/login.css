@@ -1,0 +1,101 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  position: relative;
+  padding: 2rem;
+  background-image: url('shopping-bags.png'); /* Add decorative background here */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+/* Login Box */
+.login-box {
+  background-color: white;
+  border-radius: 6px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  text-align: center;
+  width: 350px;
+}
+
+/* Headings and Text */
+.login-box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.login-box p {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.login-box a {
+  color: #00789e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Input */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.btn-send-otp {
+  width: 100%;
+  padding: 12px;
+  background-color: #f4c14e;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.btn-password {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.divider span {
+  padding: 0 10px;
+  color: #777;
+}

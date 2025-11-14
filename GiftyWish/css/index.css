@@ -1,0 +1,287 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #faf9f6;
+    color: #223;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  color: #eda93b;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+  display: flex;
+}
+.logo-text {
+  color: #ee5822;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.gift-icon {
+  font-size: 32px;
+}
+ .search-bar{
+    width: 40%;
+ }
+    .search-bar input {
+      width: 60%;
+      padding: 8px 10px;
+      margin-left: 10%;
+      border: 2px solid #070505;
+      border-radius: 20px;
+    }
+a {
+  text-decoration: none;
+  color: #e88d28;
+} 
+
+
+.line2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: #070505 2px solid;
+    
+}
+.line2 h3{
+    margin-left:10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.line2 a{
+    border: #070505 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:10px;
+    border-radius: 5px;
+    color: #d54b36;
+    font-weight: 300;
+}
+.line2 a:hover{
+    background-color: #E88D28;
+    color: white;
+}
+.hero-section {
+    position: relative;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-bg {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.hero-content p {
+    font-size: 1.35rem;
+    margin-bottom: 1.8em;
+}
+
+/* .hero-content button {
+    background: #F4A727;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 28px;
+    padding: 0.65em 2.4em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s;
+} */
+/* .hero-content button:hover {
+    background: #E88D28;
+} */
+
+/* .category-section {
+    margin: 48px 0 48px 0;
+} */
+
+.category-section h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 100px;   
+}
+
+.category-card {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    box-shadow: rgba(70,69,127,0.07);
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+.category-card img {
+   border-radius: 8px;
+}
+.category-card h3{
+    text-align: center;
+}
+.category-card:hover {
+    transform: scale(1.03);
+}
+
+.footer {
+  background-color: #e88d28;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  position: sticky;
+  bottom: 0;
+  z-index: 100px;
+}
+.footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, under 600px) */
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .logo-text {
+    font-size: 1.6rem;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .search-bar input {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .nav-icons {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+
+  .line2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .line2 a {
+    margin: 5px;
+    padding: 5px 8px;
+  }
+
+  
+  .hero-section {
+    height: 280px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+
+
+  .categories {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .category-card img {
+    width: 90%;
+    height: auto;
+  }
+
+
+  .footer {
+    font-size: 12px;
+  }
+}
+
+

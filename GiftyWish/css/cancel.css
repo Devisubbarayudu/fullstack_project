@@ -1,0 +1,122 @@
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #faf9f6;
+    color: #223;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: #eda93b;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.logo-text {
+    color: #ee5822;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.gift-icon {
+    font-size: 2rem;
+}
+ .search-bar{
+    width: 40%;
+ }
+    .search-bar input {
+      width: 60%;
+      padding: 8px 10px;
+      margin-left: 10%;
+      border: 2px solid #070505;
+      border-radius: 20px;
+    }
+
+
+
+.nav-icons a:hover {
+    color: #c72911;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+a{
+   text-decoration: none;
+   color: #E88D28;
+}
+
+
+main {
+  background: #fff;
+    width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+     margin-bottom: 14%;
+    margin-left: 23%;
+    margin-top: 14%;
+}
+
+.confirmation-box {
+  
+  border-radius: 8px;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.check-icon {
+  font-size: 80px;
+  color: #00c853;
+  margin-bottom: 15px;
+}
+
+.confirmation-box p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.confirmation-box button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+
+    .footer {
+      background-color: #E88D28;;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      position: sticky;
+      bottom: 0;
+    }
+
+    .footer a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+
